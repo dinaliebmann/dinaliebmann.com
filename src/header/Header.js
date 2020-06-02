@@ -21,16 +21,16 @@ const HeaderUnstyled = ({ className, isDesktop }) => {
 
   const header = isDesktop ? (
     <div className={containerClassNames}>
-      <div className="header-title right-aligned">Jonah Dlin</div>
+      <div className="header-title right-aligned">Dina Liebmann</div>
       <HeaderPhoto isDesktop={isDesktop} />
-      <div className="header-title">Full Stack Developer</div>
+      <div className="header-title">Data Scientist</div>
     </div>
   ) : (
     <div className={containerClassNames}>
       <HeaderPhoto isDesktop={isDesktop} />
       <div className="header-right-text-container">
-        <div className="header-right-title">Jonah Dlin</div>
-        <div className="header-right-subtitle">Full Stack Developer</div>
+        <div className="header-right-title">Dina Liebmann</div>
+        <div className="header-right-subtitle">Data Scientist</div>
       </div>
     </div>
   );

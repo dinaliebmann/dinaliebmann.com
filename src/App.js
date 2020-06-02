@@ -6,6 +6,7 @@ import Header from './header/Header';
 import Timeline from './timeline/Timeline';
 import Projects from './projects/Projects';
 import Contact from './contact/Contact';
+import Footer from './footer/Footer';
 
 const AppUnstyled = ({ className }) => {
   const [windowDimensions, setWindowDimensions] = useState({
@@ -40,6 +41,7 @@ const AppUnstyled = ({ className }) => {
       <Timeline isDesktop={isDesktop} />
       <Projects isDesktop={isDesktop} />
       <Contact isDesktop={isDesktop} />
+      <Footer />
     </div>
   );
 };
