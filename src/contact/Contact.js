@@ -34,20 +34,7 @@ const ContactUnstyled = ({ className, isDesktop }) => {
         <div className="contact-method-wrapper">
           <a
             className="contact-link"
-            href="https://github.com/jonahdlin"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <div className="contact-method-icon-container">
-              <img className="github-icon" src={githubSvg} alt="IN" />
-            </div>
-          </a>
-          <div className="contact-method-subtitle">GitHub</div>
-        </div>
-        <div className="contact-method-wrapper">
-          <a
-            className="contact-link"
-            href="https://www.linkedin.com/in/jonah-dlin-00b281106/"
+            href="https://www.linkedin.com/in/dina-liebmann-0367a9122/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -58,7 +45,20 @@ const ContactUnstyled = ({ className, isDesktop }) => {
           <div className="contact-method-subtitle">LinkedIn</div>
         </div>
         <div className="contact-method-wrapper">
-          <a className="contact-link" href="mailto: jonah.dlin@gmail.com">
+          <a
+            className="contact-link"
+            href="https://github.com/dinaliebmann"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="contact-method-icon-container">
+              <img className="github-icon" src={githubSvg} alt="IN" />
+            </div>
+          </a>
+          <div className="contact-method-subtitle">GitHub</div>
+        </div>
+        <div className="contact-method-wrapper">
+          <a className="contact-link" href="mailto: dina.liebmann@gmail.com">
             <div className="contact-method-icon-container">
               <i className="material-icons">mail_outline</i>
             </div>
@@ -88,22 +88,7 @@ const ContactUnstyled = ({ className, isDesktop }) => {
           <div className="contact-method-wrapper">
             <a
               className="contact-link"
-              href="https://github.com/jonahdlin"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div className="contact-method-icon-container">
-                <img className="github-icon" src={githubSvg} alt="IN" />
-              </div>
-            </a>
-            <div className="contact-method-subtitle">GitHub</div>
-          </div>
-        </div>
-        <div className="contact-method-row">
-          <div className="contact-method-wrapper">
-            <a
-              className="contact-link"
-              href="https://www.linkedin.com/in/jonah-dlin-00b281106/"
+              href="https://www.linkedin.com/in/dina-liebmann-0367a9122/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -113,8 +98,23 @@ const ContactUnstyled = ({ className, isDesktop }) => {
             </a>
             <div className="contact-method-subtitle">LinkedIn</div>
           </div>
+        </div>
+        <div className="contact-method-row">
           <div className="contact-method-wrapper">
-            <a className="contact-link" href="mailto: jonah.dlin@gmail.com">
+            <a
+              className="contact-link"
+              href="https://github.com/dinaliebmann"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="contact-method-icon-container">
+                <img className="github-icon" src={githubSvg} alt="IN" />
+              </div>
+            </a>
+            <div className="contact-method-subtitle">GitHub</div>
+          </div>
+          <div className="contact-method-wrapper">
+            <a className="contact-link" href="mailto: dina.liebmann@gmail.com">
               <div className="contact-method-icon-container">
                 <i className="material-icons">mail_outline</i>
               </div>

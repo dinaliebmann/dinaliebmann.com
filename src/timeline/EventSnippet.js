@@ -105,8 +105,8 @@ const EventSnippet = styled(EventSnippetUnstyled)`
       height: 100%;
       display: flex;
       justify-content: center;
-      font-family: ${HEADER_FONT};
-      font-size: ${props => (props.isDesktop ? 18 : 14)}px;
+      font-family: ${PARAGRAPH_FONT};
+      font-size: ${props => (props.isDesktop ? 18 : 12)}px;
     }
 
     .event-snippet-date {

@@ -19,5 +19,5 @@ export const BOX_SHADOW = '0px 0px 14px 0px rgba(228,228,228,1)';
 
 export const HIGHLIGHT_TRANSITION = 'background-color 0.1s linear';
 
-export const HEADER_FONT = "'Nunito', 'Open Sans', sans-serif";
-export const PARAGRAPH_FONT = "'Open Sans', sans-serif";
+export const HEADER_FONT = "'Montserrat', 'Open Sans', sans-serif";
+export const PARAGRAPH_FONT = "'Source Sans Pro', 'Open Sans', sans-serif";
