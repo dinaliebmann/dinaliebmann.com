@@ -7,9 +7,9 @@ import {
   HIGHLIGHT_TRANSITION,
   LIGHT_GREY_3,
   HEADER_FONT,
-  PRIMARY,
+  PRIMARY_6,
+  PRIMARY_4,
   PARAGRAPH_FONT,
-  PRIMARY_5,
   PRIMARY_DARK,
 } from '../constants/theme';
 import { flexCenter } from '../constants/mixins';
@@ -208,10 +208,10 @@ const ProjectCard = styled(ProjectCardUnstyled)`
 export const ProjectDescriptionLink = styled.a`
   text-decoration: none;
   :link {
-    color: ${PRIMARY};
+    color: ${PRIMARY_6};
   }
   :visited {
-    color: ${PRIMARY_5};
+    color: ${PRIMARY_4};
   }
 `;
 

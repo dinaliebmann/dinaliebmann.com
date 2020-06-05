@@ -14,7 +14,6 @@ import {
   BOX_SHADOW,
   LIGHT_GREY_1,
   LIGHT_GREY_4,
-  HEADER_FONT,
   PARAGRAPH_FONT,
   DARK_GREY_2,
 } from '../constants/theme';

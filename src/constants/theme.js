@@ -2,8 +2,9 @@ export const PRIMARY = '#9AC4F8';
 export const PRIMARY_DARK = '#141B41';
 export const PRIMARY_2 = '#89D2A0';
 export const PRIMARY_3 = '#E1A3D8';
-export const PRIMARY_4 = '#820B8A';
-export const PRIMARY_5 = '#758ECD';
+export const PRIMARY_4 = '#A57ACD';
+export const PRIMARY_5 = '#FAB3A9';
+export const PRIMARY_6 = '#758ECD';
 
 export const DARK_GREY = '#404145';
 export const DARK_GREY_2 = '#808080';

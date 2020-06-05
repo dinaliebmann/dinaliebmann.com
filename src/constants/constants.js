@@ -1,4 +1,10 @@
-import { PRIMARY, LIGHT_GREY_1, PRIMARY_3, PRIMARY_2 } from './theme';
+import {
+  PRIMARY,
+  LIGHT_GREY_1,
+  PRIMARY_2,
+  PRIMARY_5,
+  PRIMARY_3,
+} from './theme';
 
 export const monthsMap = {
   0: 'January',
@@ -36,14 +42,19 @@ export const eventTypeMap = {
     backgroundColour: PRIMARY,
     colour: LIGHT_GREY_1,
   },
-  music: {
-    iconName: 'music_note',
-    backgroundColour: PRIMARY_3,
+  hobbies: {
+    iconName: 'bubble_chart',
+    backgroundColour: PRIMARY_5,
     colour: LIGHT_GREY_1,
   },
   education: {
     iconName: 'school',
     backgroundColour: PRIMARY_2,
+    colour: LIGHT_GREY_1,
+  },
+  travel: {
+    iconName: 'flight',
+    backgroundColour: PRIMARY_3,
     colour: LIGHT_GREY_1,
   },
 };

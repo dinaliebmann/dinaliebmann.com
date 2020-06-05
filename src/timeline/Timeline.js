@@ -58,7 +58,7 @@ const TimelineUnstyled = ({ className, isDesktop }) => {
     />,
     <EventSnippet
       date={new Date('2019-01-02')}
-      type="music"
+      type="hobbies"
       title="Bought my first guitar"
       isDesktop={isDesktop}
     />,
@@ -115,7 +115,7 @@ const TimelineUnstyled = ({ className, isDesktop }) => {
     />,
     <EventSnippet
       date={new Date('2017-01-31')}
-      type="music"
+      type="travel"
       title="Bought my first bass guitar"
       isDesktop={isDesktop}
     />,
