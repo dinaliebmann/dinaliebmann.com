@@ -157,7 +157,7 @@ const TimelineUnstyled = ({ className, isDesktop }) => {
     <EventSnippet
       date={new Date('2015-05-07')}
       type="education"
-      title="Accepted to UWaterloo with President's Scholarship of Distinction"
+      title="Accepted to UWaterloo with President's Scholarship"
       isDesktop={isDesktop}
     />,
   ];
