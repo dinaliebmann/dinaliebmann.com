@@ -4,7 +4,6 @@ import styled from 'styled-components';
 import Navigation from './navigation/Navigation';
 import Header from './header/Header';
 import Timeline from './timeline/Timeline';
-import Projects from './projects/Projects';
 import Contact from './contact/Contact';
 import Footer from './footer/Footer';
 
@@ -39,7 +38,6 @@ const AppUnstyled = ({ className }) => {
       {nav}
       <Header isDesktop={isDesktop} />
       <Timeline isDesktop={isDesktop} />
-      <Projects isDesktop={isDesktop} />
       <Contact isDesktop={isDesktop} />
       <Footer />
     </div>

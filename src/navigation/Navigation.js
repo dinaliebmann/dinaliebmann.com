@@ -28,10 +28,6 @@ const NavigationUnstyled = ({ className }) => {
         clickHandler={() => handleNavClick('home')}
       />
       <NavigationButton
-        text="Projects"
-        clickHandler={() => handleNavClick('projects')}
-      />
-      <NavigationButton
         text="Contact"
         clickHandler={() => handleNavClick('contact')}
       />
