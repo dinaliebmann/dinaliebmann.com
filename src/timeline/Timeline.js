@@ -14,9 +14,11 @@ import {
 import EventSnippet from './EventSnippet';
 import Event from './Event';
 
-import genesysLogo from '../assets/genesysLogo.png';
-import wishLogo from '../assets/wishLogo.png';
-import uoftLogo from '../assets/uoftLogo.png';
+import xeLogo from '../assets/xeLogo.png';
+import tdLogo from '../assets/tdLogo.png';
+import capitalOneLogo from '../assets/capitalOneLogo.png';
+import statcanLogo from '../assets/statcanLogo.png';
+// import uwLogo from '../assets/uwLogo.png';
 
 const getProp = (element, prop) => element.props[prop];
 
@@ -38,91 +40,124 @@ const TimelineUnstyled = ({ className, isDesktop }) => {
     <EventSnippet
       date={new Date('2020-04-15')}
       type="education"
-      title="Graduated from UWaterloo with a BMath on the Dean's Honours List"
+      title="Graduated from UWaterloo with a Bachelor of Mathematics on the Dean's Honours List"
       isDesktop={isDesktop}
     />,
     <Event
-      date={new Date('2019-09-02')}
-      date2={new Date('2019-12-31')}
+      date={new Date('2019-09-03')}
+      date2={new Date('2019-12-20')}
       type="work"
       isLeft={isDesktop}
-      icon={genesysLogo}
-      title="Genesys"
-      subtitle="Backend Developer"
+      icon={xeLogo}
+      title="XE"
+      subtitle="Data Scientist"
       points={[
-        'Worked with popular AWS services',
-        'Learned a ton independently',
-        'Ate too much at Brazilian steakhouses',
+        'Designed the new pricing platform',
+        'Performed analyses using Sagemaker, QuickSight and Athena',
+        'Went to the Toronto Machine Learning Summit',
       ]}
       isDesktop={isDesktop}
     />,
     <EventSnippet
-      date={new Date('2019-01-02')}
+      date={new Date('2019-10-16')}
       type="hobbies"
-      title="Bought my first guitar"
+      title="Bought my first needle felting kit"
+      isDesktop={isDesktop}
+    />,
+    <EventSnippet
+      date={new Date('2019-08-07')}
+      type="hobbies"
+      title="Performed at the Uptown Waterloo Jazz Festival"
       isDesktop={isDesktop}
     />,
     <Event
-      date={new Date('2019-01-02')}
-      date2={new Date('2019-04-20')}
+      date={new Date('2019-01-07')}
+      date2={new Date('2019-04-26')}
       type="work"
       isLeft={isDesktop}
-      icon={wishLogo}
-      title="Wish"
-      subtitle="Full Stack Developer"
+      icon={xeLogo}
+      title="XE"
+      subtitle="Data Scientist"
       points={[
-        'Built webviews and webpages with React',
-        'Explored the SF Bay Area and Yosemite',
-        'Embarked on a fun-filled trip to Boise, Idaho',
+        'Analyzed web traffic post-GDPR',
+        'Forecasted varying traffic cases using Adobe Analytics and Excel',
+        'Mildly improved at foosball',
       ]}
       isDesktop={isDesktop}
     />,
     <EventSnippet
-      date={new Date('2018-11-23')}
+      date={new Date('2018-12-25')}
+      date2={new Date('2019-01-06')}
+      type="travel"
+      title="Visited family in South Africa"
+      isDesktop={isDesktop}
+    />,
+    <EventSnippet
+      date={new Date('2018-09-15')}
       type="education"
-      title="Scholarship for academic achievement from UW"
+      title="Became an executive math ambassador"
       isDesktop={isDesktop}
     />,
     <Event
-      date={new Date('2018-05-02')}
-      date2={new Date('2018-08-20')}
+      date={new Date('2018-05-07')}
+      date2={new Date('2018-08-28')}
       type="work"
       isLeft={isDesktop}
-      icon={genesysLogo}
-      title="Genesys"
-      subtitle="Frontend Developer"
+      icon={tdLogo}
+      title="TD Bank Group"
+      subtitle="Retail Risk Model Developer"
       points={[
-        'Worked extensively with TypeScript and React',
-        'Interacted with a sprawling international team',
-        'Got amazing at foosball',
+        'Tested linear and logistic models',
+        'Increased the efficiency of the team by automating the manual effort of copying and pasting SAS output',
       ]}
+      isDesktop={isDesktop}
+    />,
+    <EventSnippet
+      date={new Date('2018-01-02')}
+      type="hobbies"
+      title="Started learning Muay Thai"
       isDesktop={isDesktop}
     />,
     <Event
       date={new Date('2017-09-02')}
-      date2={new Date('2017-12-02')}
+      date2={new Date('2017-12-22')}
       type="work"
       isLeft={isDesktop}
-      icon={uoftLogo}
-      title="Univerity of Toronto"
-      subtitle="Full Stack Developer"
+      icon={capitalOneLogo}
+      title="Capital One"
+      subtitle="Data Analyst"
       points={[
-        'First time working with React/Node.js',
-        'Build a whole web app from scratch',
-        'Became a published medical author',
+        'Built a recommendation engine in Python using NLP',
+        'Taught myself and implemented Naive Bayes',
+        'Presented my work at a Capital One "Dragon\'s Den"',
       ]}
       isDesktop={isDesktop}
     />,
     <EventSnippet
-      date={new Date('2017-01-31')}
-      type="travel"
-      title="Bought my first bass guitar"
+      date={new Date('2017-04-15')}
+      type="education"
+      title="Delared my statistics major and computer science minor"
+      isDesktop={isDesktop}
+    />,
+    <Event
+      date={new Date('2017-01-09')}
+      date2={new Date('2017-04-28')}
+      type="work"
+      isLeft={isDesktop}
+      icon={statcanLogo}
+      title="Statistics Canada"
+      subtitle="Analyst"
+      points={[
+        'Researched economic data to compare against existing data',
+        'Clearly documented and communicated findings',
+        'Explored downtown Ottawa in the height of winter',
+      ]}
       isDesktop={isDesktop}
     />,
     <EventSnippet
       date={new Date('2015-05-07')}
       type="education"
-      title="Accepted to UW with President's Scholarship of Distinction"
+      title="Accepted to UWaterloo with President's Scholarship of Distinction"
       isDesktop={isDesktop}
     />,
   ];

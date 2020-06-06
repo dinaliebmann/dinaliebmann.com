@@ -181,7 +181,7 @@ const Event = styled(EventUnstyled)`
 
       .event-description {
         font-family: ${PARAGRAPH_FONT};
-        font-size: ${props => (props.isDesktop ? 14 : 12)}px;
+        font-size: ${props => (props.isDesktop ? 15 : 12)}px;
         :not(:last-child) {
           margin-bottom: 5px;
         }
