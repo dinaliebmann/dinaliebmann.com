@@ -136,7 +136,7 @@ const TimelineUnstyled = ({ className, isDesktop }) => {
     <EventSnippet
       date={new Date('2017-04-15')}
       type="education"
-      title="Delared my statistics major and computer science minor"
+      title="Declared my statistics major and computer science minor"
       isDesktop={isDesktop}
     />,
     <Event
