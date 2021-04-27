@@ -1,32 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.911bbdbf.chunk.css",
-    "main.js": "/static/js/main.68b31cb3.chunk.js",
-    "main.js.map": "/static/js/main.68b31cb3.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.e1a3dbad.js",
-    "runtime-main.js.map": "/static/js/runtime-main.e1a3dbad.js.map",
-    "static/js/2.6f6a445b.chunk.js": "/static/js/2.6f6a445b.chunk.js",
-    "static/js/2.6f6a445b.chunk.js.map": "/static/js/2.6f6a445b.chunk.js.map",
+    "main.css": "/static/css/main.bead0b71.chunk.css",
+    "main.js": "/static/js/main.594707a1.chunk.js",
+    "main.js.map": "/static/js/main.594707a1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2b11c624.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2b11c624.js.map",
+    "static/js/2.3f2eb74b.chunk.js": "/static/js/2.3f2eb74b.chunk.js",
+    "static/js/2.3f2eb74b.chunk.js.map": "/static/js/2.3f2eb74b.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.bd32eea20d44a23d6e5be49a97074a0c.js": "/precache-manifest.bd32eea20d44a23d6e5be49a97074a0c.js",
+    "precache-manifest.642f3762c6e60146d2ab66e2d095a1bf.js": "/precache-manifest.642f3762c6e60146d2ab66e2d095a1bf.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.911bbdbf.chunk.css.map": "/static/css/main.911bbdbf.chunk.css.map",
-    "static/js/2.6f6a445b.chunk.js.LICENSE.txt": "/static/js/2.6f6a445b.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/static/media/crossword.b5c5ab66.png",
-    "static/media/genesysLogo.png": "/static/media/genesysLogo.c132faff.png",
+    "static/css/main.bead0b71.chunk.css.map": "/static/css/main.bead0b71.chunk.css.map",
+    "static/js/2.3f2eb74b.chunk.js.LICENSE.txt": "/static/js/2.3f2eb74b.chunk.js.LICENSE.txt",
+    "static/media/capitalOneLogo.png": "/static/media/capitalOneLogo.06f648cd.png",
+    "static/media/euronetLogo.png": "/static/media/euronetLogo.23c0b8a7.png",
     "static/media/github.svg": "/static/media/github.ce864554.svg",
-    "static/media/graphHaxThumb.png": "/static/media/graphHaxThumb.141fae46.png",
-    "static/media/headshot.jpg": "/static/media/headshot.c061a500.jpg",
+    "static/media/headshot.jpg": "/static/media/headshot.7ef07a95.jpg",
     "static/media/linkedin.svg": "/static/media/linkedin.8e210869.svg",
-    "static/media/resume.pdf": "/static/media/resume.f8f05ffd.pdf",
-    "static/media/tavimThumb.png": "/static/media/tavimThumb.2102b9da.png",
-    "static/media/uoftLogo.png": "/static/media/uoftLogo.11ec10a5.png",
-    "static/media/wishLogo.png": "/static/media/wishLogo.61da6eee.png"
+    "static/media/resume.pdf": "/static/media/resume.f9db195f.pdf",
+    "static/media/statcanLogo.png": "/static/media/statcanLogo.e94699ea.png",
+    "static/media/tdLogo.png": "/static/media/tdLogo.c14a1343.png",
+    "static/media/xeLogo.png": "/static/media/xeLogo.f18bf170.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.e1a3dbad.js",
-    "static/js/2.6f6a445b.chunk.js",
-    "static/css/main.911bbdbf.chunk.css",
-    "static/js/main.68b31cb3.chunk.js"
+    "static/js/runtime-main.2b11c624.js",
+    "static/js/2.3f2eb74b.chunk.js",
+    "static/css/main.bead0b71.chunk.css",
+    "static/js/main.594707a1.chunk.js"
   ]
 }

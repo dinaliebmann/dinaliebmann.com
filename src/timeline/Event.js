@@ -36,6 +36,10 @@ const EventUnstyled = ({
     const month = monthsMap[date.getMonth()];
     const year = date.getFullYear();
     dateString = `${month} ${year}`;
+  } else if (typeof date2 === 'string') {
+    const month1 = monthsAbbrevMap[date.getMonth()];
+    const year1 = date.getFullYear();
+    dateString = `${month1} ${year1} - ${date2}`;
   } else {
     const month1 = monthsAbbrevMap[date.getMonth()];
     const year1 = date.getFullYear();

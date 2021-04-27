@@ -14,6 +14,7 @@ import {
 import EventSnippet from './EventSnippet';
 import Event from './Event';
 
+import euronetLogo from '../assets/euronetLogo.png';
 import xeLogo from '../assets/xeLogo.png';
 import tdLogo from '../assets/tdLogo.png';
 import capitalOneLogo from '../assets/capitalOneLogo.png';
@@ -37,6 +38,21 @@ const TimelineUnstyled = ({ className, isDesktop }) => {
   // Any events with "isLeft" true should depend on isDesktop
   // I could do this automatically but I'm lazy.
   let events = [
+    <Event
+      date={new Date('2020-07-13')}
+      date2="Current"
+      type="work"
+      isLeft={isDesktop}
+      icon={euronetLogo}
+      title="Euronet Worldwide"
+      subtitle="Data Scientist"
+      points={[
+        'Used dashboards to provide data-driven insights to the business',
+        'Worked closely with executives to answer business problems with data science',
+        'Started my first full-time role during the pandemic',
+      ]}
+      isDesktop={isDesktop}
+    />,
     <EventSnippet
       date={new Date('2020-04-15')}
       type="education"
@@ -50,7 +66,7 @@ const TimelineUnstyled = ({ className, isDesktop }) => {
       isLeft={isDesktop}
       icon={xeLogo}
       title="XE"
-      subtitle="Data Scientist"
+      subtitle="Data Scientist Co-op"
       points={[
         'Designed the new pricing platform',
         'Performed analyses using Sagemaker, QuickSight and Athena',
@@ -77,7 +93,7 @@ const TimelineUnstyled = ({ className, isDesktop }) => {
       isLeft={isDesktop}
       icon={xeLogo}
       title="XE"
-      subtitle="Data Scientist"
+      subtitle="Data Scientist Co-op"
       points={[
         'Analyzed web traffic post-GDPR',
         'Forecasted varying traffic cases using Adobe Analytics and Excel',
@@ -105,7 +121,7 @@ const TimelineUnstyled = ({ className, isDesktop }) => {
       isLeft={isDesktop}
       icon={tdLogo}
       title="TD Bank Group"
-      subtitle="Retail Risk Model Developer"
+      subtitle="Retail Risk Model Developer Co-op"
       points={[
         'Tested linear and logistic models',
         'Increased the efficiency of the team by automating the manual effort of copying and pasting SAS output',
@@ -125,7 +141,7 @@ const TimelineUnstyled = ({ className, isDesktop }) => {
       isLeft={isDesktop}
       icon={capitalOneLogo}
       title="Capital One"
-      subtitle="Data Analyst"
+      subtitle="Data Analyst Co-op"
       points={[
         'Built a recommendation engine in Python using NLP',
         'Taught myself and implemented Naive Bayes',
@@ -146,7 +162,7 @@ const TimelineUnstyled = ({ className, isDesktop }) => {
       isLeft={isDesktop}
       icon={statcanLogo}
       title="Statistics Canada"
-      subtitle="Analyst"
+      subtitle="Data Analyst Co-op"
       points={[
         'Researched economic data to compare against existing data',
         'Clearly documented and communicated findings',
